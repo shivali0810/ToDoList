@@ -44,7 +44,7 @@ p {
 
 #enter {
 	border:none;
-	padding: 5px 15px;
+	padding: 15px;
 	border-radius: 100px;
 	color: #04A1BF;
 	background-color: #025F70;
@@ -69,7 +69,8 @@ ul {
 
 li {
 	list-style: none;
-	padding: 10px 20px;
+	padding: 20px;
+	width:95%;
 	color: #ffffff;
 	text-transform: capitalize;
 	font-weight: 600;
@@ -113,4 +114,23 @@ input {
 .delete {
 	display: none;
 }
-C:\Users\HP\Dropbox\My PC (LAPTOP-32076UIA)\Documents\website
+ 
+@media only screen and (max-width: 600px){
+	ul{
+		width:75%;
+	}
+	li{
+overflow:hidden;
+text-overflow: ellipsis;
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-width:900px){
+	ul{
+		width:90%;
+	}
+	li{
+overflow:hidden;
+text-overflow: ellipsis;
+	}
+}
